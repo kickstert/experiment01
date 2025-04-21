@@ -132,7 +132,7 @@ h2{
 
 .yugiohbox{
     width: 1200px;
-    height: 630px;
+    height: 600px;
     margin-left: 20px;
     position: relative;
 }
@@ -177,7 +177,7 @@ h2{
 }
 
 .bottomborder{
-    margin-top: 50px;
+    margin-top: 80px;
     border: 2px solid black;
 }
 
