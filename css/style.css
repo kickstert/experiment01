@@ -1,0 +1,205 @@
+@font-face {
+    font-family: helveticanue;
+    src: url(../assets/fonts/HelveticaNeueCondensedBlack.ttf);
+}
+
+@font-face {
+    font-family: helvblack;
+    src: url(../assets/fonts/HelveticaNeue-Black.otf);
+}
+
+
+body{
+    background-image: linear-gradient(to right, rgb(0, 116, 175), rgb(131, 220, 254), rgb(0, 116, 175));
+}
+
+
+h1{
+    font-family: 'Arial';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin:0;
+    padding:0;
+    height: 120px;
+}
+
+span{
+    -webkit-text-stroke: 0px;
+    font-size: 100px;
+    font-style: normal;
+    font-family: 'Arial';
+    top: 20px;
+    display: inline-block;
+    animation: bounce 0.4s ease infinite alternate;
+    position: relative;
+}
+h1 span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+h1 span:nth-child(3) {
+    animation-delay: 0.3s;
+}
+h1 span:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+@keyframes bounce {
+    100% {
+        top: -20px; 
+        text-shadow: 0 1px 0 rgb(3, 90, 141),
+                     0 2px 0 rgb(3, 90, 141),
+                     0 3px 0 rgb(3, 90, 141),
+                     0 4px 0 rgb(3, 90, 141),
+                     0 5px 0 rgb(3, 90, 141),
+                     0 6px 0 rgb(3, 90, 141),
+                     0 7px 0 rgb(3, 90, 141),
+                     0 8px 0 rgb(3, 90, 141);
+    }
+}
+
+
+h2{
+    font-family: 'Arial';
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    height: 30px;
+    margin:0;
+    padding-bottom: 20px;
+}
+
+.margin{
+    margin-top: 400px;
+}
+
+.category{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: max-content auto;
+}
+
+.category p{
+    padding: 20px;
+    margin: 0;
+    border-top: 30px solid black;
+}
+
+.story p{
+    border: 0;
+    position: absolute;
+    color: white;
+    padding: 0;
+    margin-left: 235px;
+    margin-top: 7px;
+}
+
+.word{
+    background-color: rgb(131, 131, 131);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    width: 630px;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+}
+
+.Seasons{
+    width: 200px;
+    position: absolute;
+    left: 0;
+    margin-left: 1010px;
+    margin-top: 120px;
+}
+
+.Seasons li{
+    list-style-type: none;
+    font-size: 23px;
+    color: white;
+    margin: 10px;
+}
+
+#yugiohimg{
+    width: 1200px;
+    object-fit: cover;
+}
+
+#yugiohimg:hover{
+    opacity: 0.7;
+}
+
+.yugiohbox{
+    width: 1200px;
+    height: 630px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.yugiohtitlebox{
+    padding:20px;
+    background-image: linear-gradient(rgba(0, 0, 0), rgb(0, 0, 0, 0));
+    color: white;
+    position: absolute;
+    height: 100%;
+    right: 0;
+}
+
+#logo{
+    width: 220px;
+}
+
+#pokemonbanner{
+    width: 630px;
+    margin: 0;
+    padding: 0;
+}
+
+.pokemon{
+    position: absolute;
+    right: 0px;
+    margin-right: 20px;
+    margin-top: 440px;
+}
+
+#GXbanner{
+    width: 630px;
+    margin: 0;
+    padding: 0;
+}
+
+.GX{
+    position: absolute;
+    right: 0px;
+    margin-right: 20px;
+    margin-top: 238px;
+}
+
+.bottomborder{
+    margin-top: 50px;
+    border: 2px solid black;
+}
+
+.vidcategory{
+    display: grid;
+    grid-template-rows: repeat(1, auto);
+    grid-template-columns: repeat(6, auto);
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.videos p{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: 0.7;
+}
